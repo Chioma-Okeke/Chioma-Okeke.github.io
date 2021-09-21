@@ -375,6 +375,15 @@ header {
     header{
         background-position: 80% 20%;
     }
+    .tools-logo {
+        display: none;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 15%;
+        padding: 25px 0 0 0;
+        margin-left: 20px;
+    }
+    
     .flex-column{
         display: flex;
         flex-direction: column;
@@ -1033,7 +1042,7 @@ header {
     }
 }
 
-@media(max-width: 768px)  {
+/* @media(max-width: 768px)  {
     .container-1 {
         display: flex;
         width: 60%;
@@ -1045,7 +1054,6 @@ header {
 
     .service-list {
         color: black;
-        /* width: 0 auto; */
         font-size: 60px;
         padding-left: 20px;
         gap: 4%;
@@ -1143,4 +1151,4 @@ header {
         margin: 80px auto;
         text-align: center;
     }
-}
+} */
