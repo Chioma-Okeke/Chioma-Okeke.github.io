@@ -371,7 +371,7 @@ header {
 }
 
 /* Styling for maxxwidth of 320px*/
-@media(max-width: 320px) {
+@media(max-width: 546px) {
     header{
         background-position: 80% 20%;
     }
@@ -388,16 +388,6 @@ header {
         display: flex;
         flex-direction: column;
     }
-
-    .tools-logo {
-        display: none;
-        flex-direction: row;
-        justify-content: flex-start;
-        gap: 15%;
-        padding: 25px 0 0 0;
-        margin-left: 20px;
-    }
-
 
     .contact-sec1 {
         width: 100%;
@@ -820,15 +810,6 @@ header {
         flex-direction: column;
     }
 
-    .tools-logo {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        gap: 15%;
-        padding: 25px 0 0 0;
-        margin-left: 20px;
-    }
-
     .tool {
         width: 60px;
         height: 80px;
@@ -1042,7 +1023,7 @@ header {
     }
 }
 
-/* @media(max-width: 768px)  {
+@media(max-width: 768px)  {
     .container-1 {
         display: flex;
         width: 60%;
@@ -1151,4 +1132,4 @@ header {
         margin: 80px auto;
         text-align: center;
     }
-} */
+}
