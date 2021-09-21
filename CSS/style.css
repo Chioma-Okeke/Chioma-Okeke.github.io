@@ -99,10 +99,11 @@ header {
 
 
 
-.container-2{
+.container-2 {
     width: 70%;
     margin: 0 auto;
     gap: 2%;
+    padding-bottom: 20px;
 }
 
 .contact-sec1{
@@ -369,6 +370,7 @@ header {
     flex-direction: row;
 }
 
+/* Styling for maxxwidth of 320px*/
 @media(max-width: 320px) {
     header{
         background-position: 80% 20%;
@@ -566,8 +568,15 @@ header {
         margin: 20px 0 40px 0;
         gap: 5%;
     }
-}
 
+    .button-section {
+        justify-content: center;
+        gap: 4%;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+/* Styling for maxxwidth of 375px*/
 @media(max-width: 375px) {
     header{
         background-position: 80% 20%;
@@ -775,5 +784,363 @@ header {
         margin: 20px 0 40px 0;
         gap: 5%;
     }
+
+    .button-section {
+        justify-content: center;
+        gap: 4%;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .booking-body {
+        width: 53%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0 40px;
+    }
 }
 
+
+/* Styling for maxxwidth of 425px*/
+@media(max-width: 425px) {
+    header{
+        background-position: 80% 20%;
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tools-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 15%;
+        padding: 25px 0 0 0;
+        margin-left: 20px;
+    }
+
+    .tool {
+        width: 60px;
+        height: 80px;
+    }
+
+    .tools p {
+        padding: 20px 0;
+        font-size: 12px;
+    }
+
+
+    .contact-sec1 {
+        width: 100%;
+    }
+
+    .contact-sec1 img {
+        width: 100%;
+        padding: 50px 0 40px 0;
+    }
+
+    .contact-sec1 p {
+        width: 100%;
+        margin-right: 60px;
+    }
+
+    .contact-sec2 {
+        width: 100%;
+    }
+
+    .contact-sec2 h5 {
+        font-size: 22px;
+        padding: 15px 0;
+    }
+    
+    .contact-sec2 h6 {
+        color: red;
+        font-size: 20px;
+        padding: 0 0 10px 0;
+    }
+    
+    .contact-sec2 img {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .capentry-img {
+        width: 80%;
+        margin: 0 auto;
+    }   
+
+    .capentry-img img {
+        width: 100%;
+        /* height: 500px; */
+    }
+
+    .capentry-body {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .capentry-body h4 {
+        font-size: 40px;
+        color: #08519c;
+        margin-bottom: 20px;
+    }
+
+    .capentry-body p {
+        width: 100%;
+        line-height: 0.7cm;
+        font-size: 19px;
+        margin: 29px 0 24px 0;
+    }
+
+    .service {
+        width: 100%;
+        color: black;
+    }
+
+    .plumbing-service {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+
+    .texts {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .plumbing p {
+        font-size: 20px;
+    }
+
+    .plumbing .p2 {
+        font-size: 50px;
+    }
+
+    .plumbing h5 {
+        font-size: 50px;
+    }
+
+    .plumbing-image {
+        width: 100%;
+    }
+
+    .container-1 {
+        display: flex;
+        width: 70%;
+        margin: 250px 0 0 20px;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0;
+    }
+
+    .service-list {
+        font-size: 30px;
+        color: white;
+    }
+
+    .service-list hr {
+        margin-top: 18px;
+        width: 120%;
+    }
+
+    .booking-body {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .booking {
+        display: flex;
+        justify-content: center;
+        background-color: aliceblue;
+    }
+
+    .booking h4 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .booking-body p {
+        font-size: 17px;
+    }
+
+    .booking-body button {
+        color: white;
+        background-color: #e41a1c;
+        border: 0;
+        padding: 13px 26px;
+        margin: 20px;
+    }
+
+    .end-body {
+        margin-top: 70px;
+        width: 75%;
+        margin: 70px auto 40px;
+        text-align: center;
+    }
+
+    .end-body h6 {
+        font-size: 25px;
+    }
+
+    .end-body p {
+        margin: 15px auto;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .button-section .button-1 {
+        background-color: #e41a1c;
+        color: white;
+        padding: 15px 40px;
+        border: 0;
+        border-radius: 2px;
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+
+    .plumbing-image .image-set {
+        gap: 5%;
+        margin: 30px 0 0 0;
+    }
+
+    .image-set-2 {
+        margin: 20px 0 40px 0;
+        gap: 5%;
+    }
+
+    .button-section {
+        justify-content: center;
+        gap: 4%;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .booking-body {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0 40px;
+    }
+
+    .container-2 {
+        width: 70%;
+        margin: 0 auto;
+        gap: 2%;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px)  {
+    .container-1 {
+        display: flex;
+        width: 60%;
+        margin: 200px 0 0 40px;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0 0 0;
+    }
+
+    .service-list {
+        color: black;
+        /* width: 0 auto; */
+        font-size: 60px;
+        padding-left: 20px;
+        gap: 4%;
+    }
+
+    .booking-body {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0 100px;
+    }
+
+    header {
+        width: 100%;
+        height: 120vh;
+        background-image: url(/IMG/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-2 {
+        width: 85%;
+        margin: 0 auto;
+        gap: 2%;
+        padding-bottom: 20px;
+    }
+
+    .contact-sec2 h5 {
+        font-size: 30px;
+        padding: 60px 0 20px 0;
+    }
+
+    .contact-sec2 h6 {
+        color: red;
+        font-size: 25px;
+        padding: 0 0 45px 0;
+    }
+
+    .capentry-body p {
+        width: 90%;
+        line-height: 0.7cm;
+        font-size: 20px;
+        margin: 25px 0;
+    }
+
+    .capentry-body hr {
+        width: 90%;
+    }
+
+    .capentry-body h4 {
+        font-size: 45px;
+        color: #08519c;
+        margin-bottom: 20px;
+    }
+
+    .capentry-body {
+        width: 80%;
+        margin: 120px 0 0 0;
+    }
+
+    .service-body {
+        width: 88%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .plumbing-service {
+        width: 90%;
+        margin: 0 auto;
+        padding: 60px 0 40px 0;
+    }
+
+    .plumbing p {
+        font-size: 20px;
+    }
+
+    .plumbing .p2 {
+        font-size: 70px;
+    }
+
+    .plumbing h5 {
+        font-size: 75px;
+    }
+
+    .plumbing-image {
+        width: 65%;
+    }
+
+    .end-body {
+        margin-top: 70px;
+        width: 70%;
+        margin: 80px auto;
+        text-align: center;
+    }
+}
