@@ -1035,7 +1035,7 @@ header {
 
     .service-list {
         color: black;
-        font-size: 60px;
+        /* font-size: 60px; */
         padding-left: 20px;
         gap: 4%;
     }
@@ -1095,7 +1095,7 @@ header {
 
     .capentry-body {
         width: 80%;
-        margin: 120px 0 0 0;
+        margin: 120px 0 0 50px;
     }
 
     .service-body {
